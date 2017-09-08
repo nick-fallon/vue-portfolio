@@ -13,7 +13,7 @@ export default {
 <style>
 body {
   margin: 0;
-  font-family: 'Oswald', Helvetica, sans-serif;
+  font-family: 'Josefin Sans', Helvetica, sans-serif;
 }
 
 </style>

@@ -32,6 +32,8 @@
   }
   .sub-nav {
     padding: 0;
+    font-size: 1.5em;
+    margin-top: 2em;
     list-style-type: none;
     display: flex;
     flex-direction: row;

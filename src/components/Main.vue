@@ -5,12 +5,9 @@
         <div class="name-container">
           <h1>Nick Fallon</h1>
           <nav>
-            <ul class="sub-nav">
-              <router-link to="/about"><li><a>About Me</a></li></router-link>
-              <router-link to="/projects"><li><a>Projects</a></li></router-link>
-              <li><a>Resume</a></li>
-              <router-link to="/contact"><li><a>Contact Me</a></li></router-link>
-            </ul>
+            <div class="sub-nav">
+              <p>Full Stack Developer</p>
+            </div>
           </nav>
         </div>
       </div>
@@ -33,7 +30,8 @@
   .sub-nav {
     padding: 0;
     font-size: 1.5em;
-    margin-top: 2em;
+    margin-top: 1em;
+    color: white;
     list-style-type: none;
     display: flex;
     flex-direction: row;

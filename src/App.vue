@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <v-app>
-      <v-navigation-drawer absolute persistent light v-model="drawer" overflow>
+      <v-navigation-drawer absolute persistent clipped dark v-model="drawer" overflow class="nav-drawer">
         <v-toolbar flat>
           <v-list class="pa-0">
             <v-list-tile avatar>
@@ -18,7 +18,7 @@
           <v-divider></v-divider>
           <v-list-tile v-for="item in items" :key="item.title" @click="" :href="item.route">
             <v-list-tile-action>
-              <v-icon>{{ item.icon }}</v-icon>
+              <v-icon class="white--text">{{ item.icon }}</v-icon>
             </v-list-tile-action>
             <v-list-tile-content>
               <v-list-tile-title>{{ item.title }}</v-list-tile-title>
@@ -26,9 +26,9 @@
           </v-list-tile>
         </v-list>
       </v-navigation-drawer>
-      <v-toolbar fixed class="cyan darken-4" dark>
+      <v-toolbar fixed class="cyan darken-4">
         <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
-        <v-toolbar-title>Nick Fallon</v-toolbar-title>
+        <v-toolbar-title class="toolbar-title">Nick Fallon</v-toolbar-title>
       </v-toolbar>
       <main>
         <v-container fluid>
@@ -65,5 +65,11 @@ body {
 .container {
   padding: 0;
 }
+.toolbar-title {
+  color: #fafafa;
+}
+/*.nav-drawer {
+  opacity: .5;
+}*/
 
 </style>

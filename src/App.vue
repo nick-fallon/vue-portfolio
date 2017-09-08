@@ -16,7 +16,7 @@
         </v-toolbar>
         <v-list class="pt-0" dense>
           <v-divider></v-divider>
-          <v-list-tile v-for="item in items" :key="item.title" @click="">
+          <v-list-tile v-for="item in items" :key="item.title" @click="" :href="item.route">
             <v-list-tile-action>
               <v-icon>{{ item.icon }}</v-icon>
             </v-list-tile-action>
@@ -46,10 +46,10 @@ export default {
       return {
         drawer: true,
         items: [
-          { title: 'Home', icon: 'fa-home' },
-          { title: 'About', icon: 'fa-question' },
-          { title: 'Projects', icon: 'fa-flask' },
-          { title: 'Contact Me', icon: 'fa-comment-o' }
+          { title: 'Home', icon: 'fa-home', route: '/' },
+          { title: 'About', icon: 'fa-question', route: '/#/about' },
+          { title: 'Projects', icon: 'fa-flask' , route: '/#/projects'},
+          { title: 'Contact Me', icon: 'fa-comment-o', route: '/#/contact' }
         ],
         right: null
       }

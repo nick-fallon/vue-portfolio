@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <v-app>
-      <v-navigation-drawer persistent clipped dark v-model="drawer" overflow class="nav-drawer">
+      <v-navigation-drawer temporary clipped dark v-model="drawer" overflow class="nav-drawer">
         <v-toolbar flat>
           <v-list class="pa-0">
             <v-list-tile avatar>

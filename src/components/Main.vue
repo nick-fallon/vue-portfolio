@@ -41,5 +41,6 @@
   h1 {
     margin: 0;
     color: #006064;
+    font-size: 5em;
   }
 </style>

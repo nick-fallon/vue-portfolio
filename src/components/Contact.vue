@@ -16,7 +16,7 @@
   .main-container {
     margin-left: 3em;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
   }
   h1 {
     color: #006064;

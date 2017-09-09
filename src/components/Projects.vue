@@ -44,7 +44,7 @@
   export default {
     data() {
       return {
-        title: 'Projects',
+        title: 'projects',
         projects: [
           {
             title: 'Plague Nation',

@@ -1,7 +1,9 @@
 <template id="">
   <div>
     <v-app>
-      <h1>Contact Me</h1>
+      <div class="main-container">
+        <h1>contact me</h1>
+      </div>
     </v-app>
   </div>
 </template>
@@ -11,5 +13,14 @@
 </script>
 
 <style media="screen">
-
+  .main-container {
+    margin-left: 3em;
+    display: flex;
+    justify-content: flex-start;
+  }
+  h1 {
+    color: #006064;
+    font-size: 3em;
+    margin-top: 1em;
+  }
 </style>

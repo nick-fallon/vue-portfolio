@@ -1,7 +1,9 @@
 <template id="">
   <div>
     <v-app>
-      <h1>About Me</h1>
+      <div class="main-container">
+        <h1>about me</h1>
+      </div>
     </v-app>
   </div>
 </template>
@@ -10,6 +12,14 @@
 
 </script>
 
-<style media="screen">
-
+<style media="screen" scoped>
+  .main-container {
+    display: flex;
+    justify-content: center;
+  }
+  h1 {
+    color: #006064;
+    font-size: 3em;
+    margin-top: 1em;
+  }
 </style>

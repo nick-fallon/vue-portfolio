@@ -1,12 +1,12 @@
 <template>
   <div id="app">
     <v-app>
-      <v-navigation-drawer absolute persistent clipped dark v-model="drawer" overflow class="nav-drawer">
+      <v-navigation-drawer persistent clipped dark v-model="drawer" overflow class="nav-drawer">
         <v-toolbar flat>
           <v-list class="pa-0">
             <v-list-tile avatar>
               <v-list-tile-avatar>
-                <img src="https://randomuser.me/api/portraits/men/85.jpg" />
+                <img src="/static/avatar.png" />
               </v-list-tile-avatar>
               <v-list-tile-content>
                 <v-list-tile-title>Nick Fallon</v-list-tile-title>
@@ -27,8 +27,8 @@
         </v-list>
       </v-navigation-drawer>
       <v-toolbar fixed class="cyan darken-4">
-        <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
-        <v-toolbar-title class="toolbar-title">Nick Fallon</v-toolbar-title>
+        <v-toolbar-side-icon @click.stop="drawer = !drawer" class="white--text"></v-toolbar-side-icon>
+        <v-toolbar-title class="toolbar-title">nick fallon</v-toolbar-title>
       </v-toolbar>
       <main>
         <v-container fluid>
@@ -46,7 +46,7 @@ export default {
       return {
         drawer: true,
         items: [
-          { title: 'Home', icon: 'fa-home', route: '/' },
+          { title: 'Home', icon: 'fa-home', route: '/#/' },
           { title: 'About', icon: 'fa-question', route: '/#/about' },
           { title: 'Projects', icon: 'fa-flask' , route: '/#/projects'},
           { title: 'Contact Me', icon: 'fa-comment-o', route: '/#/contact' }
@@ -56,7 +56,6 @@ export default {
     }
 }
 </script>
-
 <style>
 body {
   margin: 0;

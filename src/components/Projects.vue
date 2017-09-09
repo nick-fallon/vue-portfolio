@@ -82,11 +82,13 @@
 
 <style media="screen" scoped>
   .main {
-    background-color: #006064;
+    background-color: #fafafa;
     height: 100%;
   }
   h1 {
-    color: #ffd24c;
+    color: #006064;
+    font-size: 3em;
+    margin-top: 1em;
   }
   h3 {
     font-weight: bold;

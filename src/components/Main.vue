@@ -1,12 +1,12 @@
 <template id="">
   <div>
     <v-app>
-      <div class="main-container cyan darken-4">
+      <div class="main-container">
         <div class="name-container">
-          <h1>Nick Fallon</h1>
+          <h1>nick fallon</h1>
           <nav>
             <div class="sub-nav">
-              <p>Full Stack Developer</p>
+              <p>full stack developer</p>
             </div>
           </nav>
         </div>
@@ -22,6 +22,7 @@
 <style media="screen" scoped>
   .main-container {
     height: 100vh;
+    color: #fafafa;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,18 +32,14 @@
     padding: 0;
     font-size: 1.5em;
     margin-top: 1em;
-    color: white;
+    color: #212121;
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
-  a {
-    text-decoration: none;
-    color: #fff;
-  }
   h1 {
     margin: 0;
-    color: #ffd24c;
+    color: #006064;
   }
 </style>

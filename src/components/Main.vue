@@ -23,6 +23,7 @@
   .main-container {
     height: 100vh;
     color: #fafafa;
+    margin-left: 0;
     display: flex;
     align-items: center;
     justify-content: center;

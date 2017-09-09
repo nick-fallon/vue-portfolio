@@ -19,7 +19,7 @@
   }
   h1 {
     color: #006064;
-    font-size: 3em;
+    font-size: 4em;
     margin-top: 1em;
   }
 </style>

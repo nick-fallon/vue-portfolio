@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <v-app>
-      <v-navigation-drawer temporary clipped dark v-model="drawer" overflow class="nav-drawer">
+      <v-navigation-drawer persistent dark v-model="drawer" overflow class="nav-drawer">
         <v-toolbar flat>
           <v-list class="pa-0">
             <v-list-tile avatar>
@@ -29,6 +29,16 @@
       <v-toolbar fixed class="cyan darken-4">
         <v-toolbar-side-icon @click.stop="drawer = !drawer" class="white--text"></v-toolbar-side-icon>
         <v-toolbar-title class="toolbar-title">nick fallon</v-toolbar-title>
+        <v-spacer></v-spacer>
+        <a href="https://github.com/nickpfallon" target="_blank"><v-btn icon>
+          <v-icon class="white--text">fa-github</v-icon>
+        </v-btn></a>
+        <a href="https://www.linkedin.com/in/nickpfallon/" target="_blank"><v-btn icon>
+          <v-icon class="white--text">fa-linkedin</v-icon>
+        </v-btn></a>
+        <a href="mailto:nickfallonwastaken@gmail.com"><v-btn icon>
+          <v-icon class="white--text">fa-envelope-o</v-icon>
+        </v-btn></a>
       </v-toolbar>
       <main>
         <v-container fluid>
@@ -66,6 +76,9 @@ body {
 }
 .toolbar-title {
   color: #fafafa;
+}
+a {
+  text-decoration: none;
 }
 /*.nav-drawer {
   opacity: .5;

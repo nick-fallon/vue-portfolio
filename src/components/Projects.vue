@@ -23,7 +23,8 @@
                     </div>
                   </v-card-title>
                   <v-card-actions>
-                    <a :href="project.siteUrl"><v-btn icon class="black--text">
+                    <a :href="project.siteUrl" target="
+                    _blank"><v-btn icon class="black--text">
                       <v-icon medium>fa-external-link</v-icon>
                     </v-btn></a>
                     <a :href="project.github"><v-btn icon class="black--text">

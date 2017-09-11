@@ -90,6 +90,7 @@
     color: #006064;
     font-size: 4em;
     margin-top: 1em;
+    margin-bottom: .5em;
   }
   h3 {
     font-weight: bold;

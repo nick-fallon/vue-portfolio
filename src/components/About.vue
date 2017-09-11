@@ -36,7 +36,7 @@ export default {
         { title: 'Vue.js', letter: 'V' },
         { title: 'PostgreSQL', letter: 'P' },
         { title: 'Express', letter: 'E' },
-        { title: 'Knex', letter: 'K' },
+        { title: 'Knex.js', letter: 'K' },
         { title: 'AJAX', letter: 'A' },
         { title: 'Mocha', letter: 'M' },
         { title: 'Bootstrap', letter: 'B' },

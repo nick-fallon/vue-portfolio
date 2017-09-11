@@ -59,7 +59,8 @@ export default {
           { title: 'Home', icon: 'fa-home', route: '/#/' },
           { title: 'About', icon: 'fa-question', route: '/#/about' },
           { title: 'Projects', icon: 'fa-flask' , route: '/#/projects'},
-          { title: 'Contact Me', icon: 'fa-comment-o', route: '/#/contact' }
+          { title: 'Contact Me', icon: 'fa-comment-o', route: '/#/contact' },
+          { title: 'Resume', icon: 'fa-file-text-o', route: '../static/NicholasFallon-Resume.pdf'}
         ],
         right: null
       }

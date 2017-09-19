@@ -56,8 +56,8 @@ export default {
       return {
         drawer: true,
         items: [
-          { title: 'Home', icon: 'fa-home', route: '/#/' },
-          { title: 'About', icon: 'fa-question', route: '/#/about' },
+          // { title: 'Home', icon: 'fa-home', route: '/#/' },
+          { title: 'About', icon: 'fa-question', route: '/#/' },
           { title: 'Projects', icon: 'fa-flask' , route: '/#/projects'},
           { title: 'Contact Me', icon: 'fa-comment-o', route: '/#/contact' },
           { title: 'Resume', icon: 'fa-file-text-o', route: '../static/NicholasFallon-Resume.pdf'}

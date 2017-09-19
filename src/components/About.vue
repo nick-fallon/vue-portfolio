@@ -3,6 +3,7 @@
     <v-app>
       <div class="container">
         <div class="main-container">
+          <img src="../../static/avatar.png" alt="">
           <h1>about me</h1>
           <section>
             <p>My name is Nick Fallon, and I'm a full stack software developer.  I received a BA in Quantitative Economics with a minor in Math from CU Boulder in 2015. I worked in restaurants during high school and college. After college, I realized I didn't want to work in a financial discipline and started studying software development.</p>
@@ -75,5 +76,11 @@ export default {
   h3 {
     color: #006064;
     margin-bottom: .75em;
+  }
+  img {
+    margin-top: 3em;
+    width: 200px;
+    border: solid 4px #006064;
+    border-radius: 50%;
   }
 </style>

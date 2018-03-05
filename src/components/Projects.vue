@@ -65,7 +65,7 @@
             title: 'GrooveBass',
             description: 'A native iOS app that allows users to enter a zip code and see all the shows playing in that week within a chosen radius. Users are able to select a show and are then presented with a playlist of the artist playing that show.',
             src: require('../assets/groovebass.png'),
-            siteUrl: 'https://www.youtube.com/watch?v=pY8IAGtAmU8',
+            siteUrl: 'https://youtu.be/pY8IAGtAmU8',
             github: 'https://github.com/Groove-Bass/Groove-Bass-the-Repo'
           },
           {

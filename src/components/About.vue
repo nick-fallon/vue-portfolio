@@ -6,9 +6,9 @@
           <img src="../../static/avatar.png" alt="">
           <h1>about me</h1>
           <section>
-            <p>My name is Nick Fallon, and I'm a full stack software developer.  I received a BA in Quantitative Economics with a minor in Math from CU Boulder in 2015. I worked in restaurants during high school and college. After college, I realized I didn't want to work in a financial discipline and started studying software development.</p>
+            <p>My name is Nick Fallon (my friends like to call me by my last name because "Nick" is so common). I am a full-stack software developer.  I received a BA in Quantitative Economics with a minor in Mathematics from the University of Colorado Boulder in 2015. I worked in restaurants during high school and college. After college, I realized that a career in a purely financial discipline wasn't exactly what I wanted. I wanted to do something that would allow more of my creativity to shine through.</p>
 
-            <p>I completed the Galvanize Web Development Immersive program in Denver, CO, because I wanted to accelerate my learning and gain the skills to work as a front-end, back-end, or full stack web developer. I love software development because it allows me to use my creativity in a technical way.  I am passionate about math and art and hope to find interesting ways to combine the two in the future.</p>
+            <p>I completed the Galvanize Web Development Immersive program in Denver, CO, because I wanted to accelerate my learning and gain the skills to work as a front-end, back-end, or full-stack web developer. I love software development because it allows me to unite my creativity with technology.  I am passionate about math and art and really enjoy finding interesting ways to combine the two.</p>
           </section>
           <h3>skills</h3>
           <div class="text-xs-center skill-container">
